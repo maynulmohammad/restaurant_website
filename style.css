@@ -1,0 +1,155 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #ffffff;
+
+}
+
+h1,
+h3,
+p {
+    text-align: center;
+}
+
+.first_div {
+    text-align: center;
+    background-color: black;
+    color: #ffffff;
+    width: 70%;
+    height: 140px;
+    margin-left: 15%;
+    text-align: center;
+    padding: 20px;
+}
+
+.first_div h1 {
+    font-family: 'Arial Narrow', Arial, sans-serif;
+    margin-top: 50px;
+}
+
+.main_div {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    text-align: center;
+    margin: 30px;
+    padding: 20px;
+}
+
+.child_div {
+    background-color: #f3f3f3;
+    margin: 30px;
+    padding: 10px;
+    text-align: center;
+    width: 300px;
+    height: 310px;
+    border-radius: 5px;
+    /* border: 1px solid red; */
+}
+
+button {
+    border: none;
+    color: #A97A0C;
+    padding: 8px;
+    background-color: #e4e1e1;
+    border-radius: 5px;
+    border-bottom: 4px solid #A97A0C;
+
+}
+
+button:hover {
+    border: none;
+    color: #A97A0C;
+    padding: 8px;
+    background-color: #252323;
+    border-radius: 5px;
+    /* border-bottom: 4px solid #A97A0C; */
+
+}
+
+.child_div h3,
+h1,
+p {
+
+    text-align: center;
+    margin-top: 5px;
+
+}
+
+img {
+    width: 300px;
+}
+
+hr {
+    width: 25%;
+    margin-left: 37%;
+}
+
+section {
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+.section_class p {
+    color: #e3b344;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+.section_class h1 {
+
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+.footer_div {
+    display: flex;
+    text-align: center;
+    width: 100%;
+    height: 300px;
+
+}
+
+.footer_divv {
+    background-color: #151515;
+    text-align: center;
+    width: 100%;
+    height: 40px;
+    /* margin-top: 5px; */
+
+}
+
+.footer_divv h4 {
+    padding: 10px;
+}
+
+.child_div_footer {
+    width: 50%;
+    color: #ffffff;
+}
+
+.a {
+    background-color: #1F2937;
+    padding-top: 50px;
+}
+
+.b {
+    background-color: #111827;
+    padding-top: 50px;
+}
+
+footer h4 {
+    /* background-color: #151515; */
+    color: #ffffff;
+    text-align: center;
+    padding: 10px;
+}
+
+footer .last_footer_div {
+    width: 100%;
+    height: 40px;
+    background-color: #151515;
+    color: #ffffff;
+}
